@@ -1,0 +1,30 @@
+.author {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.author__image-img {
+  flex: 20%;
+  max-width: 60px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.author__name {
+  flex: 40%;
+}
+
+.author__buttons {
+  flex: 40%;
+  margin-left: 60%;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
